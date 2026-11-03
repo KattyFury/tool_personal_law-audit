@@ -4,7 +4,7 @@ Cập nhật 03/11/2026. Đọc thêm `DECISIONS.md` trước khi sửa.
 
 ## ▶ Trạng thái
 
-Làm xong bản đầu theo spec. Commit local trên `main`, **chưa có remote, chưa push** vì spec yêu cầu người dùng tự push.
+Làm xong bản đầu theo spec. Đã push lên repo public [KattyFury/tool_personal_law-audit](https://github.com/KattyFury/tool_personal_law-audit), nhánh `main`. Lệnh `curl` trong README đã chạy thử được trên thư mục trống.
 
 Lần chạy cuối, trên bản clone sạch:
 
@@ -16,13 +16,12 @@ Thống kê: 43 văn bản (22 đã đối chiếu, 21 chưa xác minh), 192 m�
 
 ## Việc tiếp theo
 
-1. **Push**, trong thư mục repo: `gh repo create KattyFury/tool_personal_law-audit --public --source=. --push`. Sau đó thử lệnh `curl` trong README, lệnh này chưa từng chạy được.
-2. **Nhờ luật sư xem** mục "Mục CHƯA XÁC MINH cần kiểm tra thêm" cuối `sources/legal-references.md`. Quan trọng nhất là ranh giới "quảng cáo, tiếp thị" và vị trí dApp non-custodial ở Việt Nam.
-3. **Kiểm tra ngày cấp phép sàn đầu tiên ở Việt Nam** (`VN-LIC`), vì mốc 6 tháng của khoản 2 Điều 7 NQ 05 tính từ đó.
-4. **Giảm báo nhầm của `scan.sh`:**
+1. **Nhờ luật sư xem** mục "Mục CHƯA XÁC MINH cần kiểm tra thêm" cuối `sources/legal-references.md`. Quan trọng nhất là ranh giới "quảng cáo, tiếp thị" và vị trí dApp non-custodial ở Việt Nam.
+2. **Kiểm tra ngày cấp phép sàn đầu tiên ở Việt Nam** (`VN-LIC`), vì mốc 6 tháng của khoản 2 Điều 7 NQ 05 tính từ đó.
+3. **Giảm báo nhầm của `scan.sh`:**
    - ezwallet `TOKEN=yes`, ít nhất một phần do chữ `launchpad` trong `functions/api/_disposableDomains.js`.
    - website 0xhieu `TYPE=C`, chưa kiểm tra lý do.
-5. **Đọc toàn văn phần còn thiếu nếu có cách vượt chặn bot:** NĐ 356/2025, NĐ 330/2026, Luật 116/2025, Luật 122/2025, Luật 134/2025, nội dung PDPA, PS Act, FSMA của Singapore, tài liệu FATF.
+4. **Đọc toàn văn phần còn thiếu nếu có cách vượt chặn bot:** NĐ 356/2025, NĐ 330/2026, Luật 116/2025, Luật 122/2025, Luật 134/2025, nội dung PDPA, PS Act, FSMA của Singapore, tài liệu FATF.
 
 ## Cần nhớ
 
