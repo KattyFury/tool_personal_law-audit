@@ -7,6 +7,11 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 PORT=8765
 fail=0
 
+# .gitignore loại .env.* nên file giả này được tạo lúc chạy, scan.sh không được đọc nó
+FAKE_ENV="$ROOT/tests/fixtures/secrets-and-docs__TYPE-A/.env.txt"
+printf 'NOTE=hot_wallet airdrop kyc wagmi\n' > "$FAKE_ENV"
+trap 'rm -f "$FAKE_ENV"' EXIT
+
 serve() {
   if command -v python3 >/dev/null; then python3 -m http.server "$PORT" --directory "$1" >/dev/null 2>&1 &
   elif command -v python >/dev/null; then python -m http.server "$PORT" --directory "$1" >/dev/null 2>&1 &

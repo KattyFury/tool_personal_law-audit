@@ -57,7 +57,7 @@ SIGNALS=(
   'COMMERCE|add[-_ ]?to[-_ ]?cart|/checkout|/cart["'"'"'/]|giỏ hàng|mua ngay|vnpay|zalopay|\bmomo\b|stripe\.com|"stripe"|paypal|woocommerce|shopify'
   'WALLET|wagmi|rainbowkit|web3modal|@reown|@walletconnect|window\.ethereum|\bethers\b|\bviem\b|connectWallet|kết nối ví|connect wallet|@solana/wallet-adapter|metamask|@circle-fin/modular-wallets|user-controlled-wallets'
   'CUSTODY|developer[-_ ]controlled|initiateDeveloperControlledWalletsClient|(non[- ]?)?custodial wallet|(non[- ]?)?custodial service|omnibus|hot[-_ ]?wallet|(save|store|insert|persist|encrypt)[A-Za-z_]*\(?[^;]{0,40}(private_?key|mnemonic|seed_?phrase)|giữ (tiền|tài sản) (hộ|cho)'
-  'TOKEN_ISSUE|contract [A-Za-z0-9_]+ is [^{]*\bERC(20|721|1155)|token[- ]sale|\bpresale\b|\bIDO\b|\bICO\b|mở bán token|tokenomics|createToken|token[- ]?factory|launchpad'
+  'TOKEN_ISSUE|contract [A-Za-z0-9_]+ is [^{]*\bERC(20|721|1155)|token[- ]sale|\bpresale\b|initial coin offering|initial dex offering|mở bán token|tokenomics|createToken|token[- ]?factory|launchpad'
   'SC_PRIVILEGED|function (mint|pause|blacklist|freeze|sweep|emergencyWithdraw|upgradeTo)[A-Za-z]*\(|\bonlyOwner\b|\bonlyRole\b|UUPSUpgradeable|OwnableUpgradeable'
   'PAYMENT|on-?ramp|off-?ramp|moonpay|transak|ramp\.network|pay with (usdc|usdt|crypto|stablecoin)|thanh toán bằng (usdc|usdt|crypto|stablecoin)|\bx402\b|transfer[^;]{0,30}\busdc\b|\busdc\b[^;]{0,30}transfer'
   'SWAP|swapExact|uniswap|pancakeswap|1inch|@circle-fin/(swap-kit|app-kit|bridge-kit)|\bcctp\b|bridge USDC|li\.fi|@lifi'
@@ -67,7 +67,7 @@ SIGNALS=(
   'AI|api\.openai\.com|"openai"|@anthropic-ai|api\.anthropic\.com|@ai-sdk|generativelanguage\.googleapis|@google/generative-ai|api\.x\.ai|langchain|chatbot'
   'REGION_VN|lang=["'"'"']vi|vi-VN|\bVND\b|₫|của chúng tôi|người dùng|đăng ký|tiếng việt|vnpay|zalopay'
   'REGION_EU|\bgdpr\b|\bEUR\b|€|lang=["'"'"'](de|fr|es|it|nl|pl|pt)|\bmica\b'
-  'REGION_US|\bccpa\b|US residents|do not sell|\bUSD\b|united states'
+  'REGION_US|\bccpa\b|US residents|do not sell|united states'
   'REGION_SG|\bSGD\b|paynow|\bpdpa\b|singapore'
 )
 
