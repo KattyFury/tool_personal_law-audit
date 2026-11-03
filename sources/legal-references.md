@@ -1,6 +1,26 @@
 # Nguồn pháp luật
 
 <!-- stats:start -->
+**Thống kê (do `tools/stats.sh` đếm, không điền tay)**
+
+- Văn bản: 43, trong đó 22 ĐÃ ĐỐI CHIẾU và 21 CHƯA XÁC MINH.
+- Mục checklist: 192, trong đó 116 có nguồn không kèm cờ và 76 gắn cờ CHƯA XÁC MINH.
+- Tổng số lần ghi cờ CHƯA XÁC MINH trong `references/`, kể cả ngoài checklist: **111**.
+
+| File | Mục | Gắn cờ |
+|---|---|---|
+| `crypto/custody-wallet.md` | 16 | 5 |
+| `crypto/kyc-aml-sanctions.md` | 18 | 7 |
+| `crypto/marketing-crypto.md` | 14 | 4 |
+| `crypto/stablecoin-payments.md` | 18 | 6 |
+| `crypto/token-issuance.md` | 14 | 3 |
+| `intl/eu.md` | 23 | 6 |
+| `intl/fatf.md` | 5 | 4 |
+| `intl/sg.md` | 7 | 7 |
+| `intl/us.md` | 13 | 8 |
+| `vn/digital-assets.md` | 24 | 8 |
+| `vn/other.md` | 15 | 10 |
+| `vn/personal-data.md` | 25 | 8 |
 <!-- stats:end -->
 
 Ngày kiểm tra chung: **03/11/2026**. Luật đổi liên tục, hãy kiểm tra lại trước khi quyết định việc lớn.
@@ -16,8 +36,8 @@ Cột "Link gốc" là nơi nên kiểm tra. Cột "Bản đã đọc" là nơi 
 
 | ID | Văn bản | Hiệu lực | Trạng thái | Phạm vi đã đọc | Link gốc | Bản đã đọc |
 |---|---|---|---|---|---|---|
-| VN-NQ05 | Nghị quyết 05/2025/NQ-CP, thí điểm thị trường tài sản mã hóa | 09/09/2025, thí điểm 5 năm | ĐÃ ĐỐI CHIẾU | Điều 3, 4, 6, 7, 15 | [Cổng văn bản Chính phủ](https://vanban.chinhphu.vn/?docid=215249&pageid=27160) | [Toàn văn, Cổng TTĐT Lai Châu](https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/toan-van-nghi-quyet-so-05-2025-nq-cp-ve-trien-khai-thi-diem-thi-truong-tai-san-ma-hoa-tai-viet-nam.html) |
-| VN-ND284 | Nghị định 284/2026/NĐ-CP, xử phạt về tài sản mã hóa | 01/09/2026, ban hành 16/07/2026 | ĐÃ ĐỐI CHIẾU | Điều 1, 3, 6, 7, 8 (một phần), 9, 11 | [LuatVietnam](https://luatvietnam.vn/tin-van-ban-moi/da-co-nghi-dinh-284-2026-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-tai-san-ma-hoa-186-110570-article.html) | [Toàn văn, luatnguyen.vn](https://luatnguyen.vn/van-ban-phap-luat/nghi-dinh-284-2026-nd-cp-2321.html) |
+| VN-NQ05 | Nghị quyết 05/2025/NQ-CP, thí điểm thị trường tài sản mã hóa | 09/09/2025, thí điểm 5 năm | ĐÃ ĐỐI CHIẾU | Điều 3, 4, 5 (khoản 1, 2), 6, 7, 15 (khoản 2 điểm g) | [Cổng văn bản Chính phủ](https://vanban.chinhphu.vn/?docid=215249&pageid=27160) | [Toàn văn, Cổng TTĐT Lai Châu](https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/toan-van-nghi-quyet-so-05-2025-nq-cp-ve-trien-khai-thi-diem-thi-truong-tai-san-ma-hoa-tai-viet-nam.html) |
+| VN-ND284 | Nghị định 284/2026/NĐ-CP, xử phạt về tài sản mã hóa | 01/09/2026, ban hành 16/07/2026 | ĐÃ ĐỐI CHIẾU | Điều 1, 3, 4, 6, 7, 8 (khoản 1, 2, 5, 6), 9, 11, 13 (khoản 1) | [LuatVietnam](https://luatvietnam.vn/tin-van-ban-moi/da-co-nghi-dinh-284-2026-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-tai-san-ma-hoa-186-110570-article.html) | [Toàn văn, luatnguyen.vn](https://luatnguyen.vn/van-ban-phap-luat/nghi-dinh-284-2026-nd-cp-2321.html) |
 | VN-L71 | Luật Công nghiệp công nghệ số, 71/2025/QH15 | 01/01/2026 (ngày này theo nguồn thứ cấp) | ĐÃ ĐỐI CHIẾU | Điều 46, 47, 48 | [thuvienphapluat](https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Luat-Cong-nghiep-cong-nghe-so-2025-so-71-2025-QH15-599022.aspx) | [hethongphapluat](https://hethongphapluat.com/luat-cong-nghiep-cong-nghe-so-2025.html) (trang lẫn cả bản dự thảo, đã đọc bản đánh số Điều 46-48) |
 | VN-AML | Luật Phòng, chống rửa tiền, 14/2022/QH15 | 01/03/2023 | ĐÃ ĐỐI CHIẾU | Điều 4 (đối tượng báo cáo). Không thấy cụm "tài sản ảo" trong bản đã đọc | [thuvienphapluat](https://thuvienphapluat.vn/van-ban/Tien-te-Ngan-hang/Luat-Phong-chong-rua-tien-2022-519327.aspx) | [LuatVietnam](https://luatvietnam.vn/tai-chinh/luat-14-2022-qh15-237800-d1.html) |
 | VN-ND52 | Nghị định 52/2024/NĐ-CP, thanh toán không dùng tiền mặt | 01/07/2024 | ĐÃ ĐỐI CHIẾU | Điều 8 khoản 6, 7. Không thấy cụm "tiền ảo", "tài sản ảo" trong bản đã đọc. Đã có văn bản hợp nhất năm 2026, chưa đọc | [VBHN 75 (PDF)](https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/75-vbhn-nhnn.signed.pdf) | [caselaw.vn](https://caselaw.vn/van-ban-phap-luat/411601-nghi-dinh-so-52-2024-nd-cp-ngay-15-05-2024-cua-chinh-phu-quy-dinh-ve-thanh-toan-khong-dung-tien-mat) |

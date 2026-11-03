@@ -40,3 +40,6 @@ Các quyết định tự đưa ra khi dựng repo, mới nhất ở cuối. Ng�
 20. **Tín hiệu bị loại `node_modules`, `.law-audit`, thư mục build.** Không quét `artifacts/`, `cache/`, `out/` của Foundry/Hardhat vì ABI sinh ra có `mint`, gây báo nhầm.
 21. **Tách tín hiệu `SC_PRIVILEGED` riêng.** `mint`/`pause`/`blacklist` trong `.sol` là dấu hiệu quản trị tập trung, ảnh hưởng tới lập luận "không kiểm soát tiền người dùng".
 22. **`CUSTODY` chỉ bắt chuỗi rõ nghĩa** (`privateKey` đi cùng lưu trữ, `custodial wallet`, `developer-controlled`, `omnibus`...). Từ `custody` đơn lẻ dễ khớp với chữ "non-custodial" nên có bước lọc.
+23. **`scan.sh` không bao giờ mở file secret.** Lần chạy thử trên dự án thật cho thấy `--exclude` đặt trước `--include` làm GNU grep bỏ qua bộ lọc đuôi file, nên script đọc cả `.env.txt`. Output chỉ in từ khóa khớp, không in giá trị và không gửi đi đâu. Đã đổi thứ tự, chặn `.env*`, `*.pem`, `*.key`, `*secret*`, `*credential*`, có fixture `secrets-and-docs__TYPE-A` giữ lỗi này không quay lại.
+24. **Không quét docs `.md`, thư mục test, mock, deployments.** Kế hoạch nội bộ và hợp đồng mock không phải điều dự án đang làm với người dùng. Đổi lại có thể bỏ sót whitepaper dạng `.md`, agent cần tự đọc.
+25. **Bỏ `ICO`, `IDO`, `USD` khỏi regex.** `ICO` khớp favicon `.ico`. Stablecoin nào cũng có USD, làm mọi dự án thành "có người dùng Mỹ".
